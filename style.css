@@ -1,0 +1,131 @@
+* {
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+.body-container {
+	position: relative;
+	max-width: 1121px;
+	height: 412px;
+	background-color: #f8f8f8;
+}
+h1 {
+	font-family: 'TT Lakes';
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: -0.2px;
+	text-transform: uppercase;
+	color: #7e7e82;
+}
+.header {
+	margin: 16px auto 8px 32px;
+}
+.main__logo {
+	display: flex;
+	align-content: flex-start;
+	flex-wrap: wrap;
+}
+.logo {
+	width: 240px;
+	height: 72px;
+	margin: 16px 0px auto 32px;
+	background: #ffffff;
+	border: 1px solid #eaeaea;
+	border-radius: 6px;
+}
+.button {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: transparent;
+}
+.dropdown {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 16px 16px 16px auto;
+}
+.img-logo {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 16px;
+}
+.hp-img {
+	margin-left: 10px;
+}
+.viewsonic-img,
+.sony-img {
+	margin-left: 14px;
+}
+.button-footer {
+	display: flex;
+	align-items: center;
+	margin: 46px auto 0 32px;
+}
+.hidden {
+	display: none;
+}
+.content-display {
+	display: flex;
+}
+.btn {
+	font-family: 'TT Lakes';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: -0.2px;
+	color: #1b1c21;
+	background: #f8f8f8;
+}
+.button-go-img {
+	transform: rotate(180deg);
+}
+@media (min-width: 320px) {
+	.mySwiper {
+		width: 100%;
+		height: 72px;
+	}
+}
+@media (min-width: 321px) {
+	.mySwiper,.swiper-pagination-bullet{
+		display: none !important;
+	}
+}
+@media (max-width: 320px) {
+	.logo-content {
+		display: none;
+	}
+}
+@media (max-width: 320px) {
+	.btn,
+	.logo-foot {
+		display: none;
+	}
+}
+.swiper-slide {
+	min-width: 240px;
+	min-height: 72px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 16px;
+	margin-right: 0 !important;
+	padding-right: 0;
+}
+
+.swiper-slide img {
+	display: block;
+	width: 240px;
+	height: 72px;
+	object-fit: cover;
+}
+.swiper-pagination {
+	position: static !important;
+	margin-top: 16px;
+}
+.swiper-pagination-bullet {
+	width: 12px !important; 
+	height: 12px !important; 
+}
